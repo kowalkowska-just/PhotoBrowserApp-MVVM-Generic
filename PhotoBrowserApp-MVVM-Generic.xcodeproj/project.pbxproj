@@ -15,6 +15,8 @@
 		D124340A25F03E1100987690 /* PhotoFeedResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124340925F03E1100987690 /* PhotoFeedResult.swift */; };
 		D124340D25F03E1B00987690 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124340C25F03E1B00987690 /* Photo.swift */; };
 		D124341025F03E2D00987690 /* PhotoSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124340F25F03E2D00987690 /* PhotoSize.swift */; };
+		D124341325F0421700987690 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124341225F0421700987690 /* Endpoint.swift */; };
+		D124341625F0430300987690 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124341525F0430300987690 /* Key.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		D124340925F03E1100987690 /* PhotoFeedResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFeedResult.swift; sourceTree = "<group>"; };
 		D124340C25F03E1B00987690 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		D124340F25F03E2D00987690 /* PhotoSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSize.swift; sourceTree = "<group>"; };
+		D124341225F0421700987690 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		D124341525F0430300987690 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 		D124340425F03AA400987690 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				D124341225F0421700987690 /* Endpoint.swift */,
+				D124341525F0430300987690 /* Key.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -190,10 +196,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D124341325F0421700987690 /* Endpoint.swift in Sources */,
 				D12433D025F0353D00987690 /* AppDelegate.swift in Sources */,
 				D124340A25F03E1100987690 /* PhotoFeedResult.swift in Sources */,
 				D12433D225F0353D00987690 /* SceneDelegate.swift in Sources */,
 				D124341025F03E2D00987690 /* PhotoSize.swift in Sources */,
+				D124341625F0430300987690 /* Key.swift in Sources */,
 				D12433FC25F038BC00987690 /* HomeViewController.swift in Sources */,
 				D124340D25F03E1B00987690 /* Photo.swift in Sources */,
 			);
