@@ -18,6 +18,9 @@
 		D124341325F0421700987690 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124341225F0421700987690 /* Endpoint.swift */; };
 		D124341625F0430300987690 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124341525F0430300987690 /* Key.swift */; };
 		D124341925F11CB900987690 /* PhotoFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124341825F11CB900987690 /* PhotoFeed.swift */; };
+		D124341C25F1201D00987690 /* Resut.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124341B25F1201D00987690 /* Resut.swift */; };
+		D124341F25F1207200987690 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124341E25F1207200987690 /* APIError.swift */; };
+		D124342225F122F000987690 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124342125F122F000987690 /* APIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		D124341225F0421700987690 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		D124341525F0430300987690 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
 		D124341825F11CB900987690 /* PhotoFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFeed.swift; sourceTree = "<group>"; };
+		D124341B25F1201D00987690 /* Resut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resut.swift; sourceTree = "<group>"; };
+		D124341E25F1207200987690 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		D124342125F122F000987690 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,9 @@
 			children = (
 				D124341225F0421700987690 /* Endpoint.swift */,
 				D124341525F0430300987690 /* Key.swift */,
+				D124341B25F1201D00987690 /* Resut.swift */,
+				D124341E25F1207200987690 /* APIError.swift */,
+				D124342125F122F000987690 /* APIClient.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -206,8 +215,11 @@
 				D124341025F03E2D00987690 /* PhotoSize.swift in Sources */,
 				D124341625F0430300987690 /* Key.swift in Sources */,
 				D124341925F11CB900987690 /* PhotoFeed.swift in Sources */,
+				D124341C25F1201D00987690 /* Resut.swift in Sources */,
 				D12433FC25F038BC00987690 /* HomeViewController.swift in Sources */,
 				D124340D25F03E1B00987690 /* Photo.swift in Sources */,
+				D124341F25F1207200987690 /* APIError.swift in Sources */,
+				D124342225F122F000987690 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
