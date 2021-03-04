@@ -17,6 +17,7 @@
 		D124341025F03E2D00987690 /* PhotoSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124340F25F03E2D00987690 /* PhotoSize.swift */; };
 		D124341325F0421700987690 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124341225F0421700987690 /* Endpoint.swift */; };
 		D124341625F0430300987690 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124341525F0430300987690 /* Key.swift */; };
+		D124341925F11CB900987690 /* PhotoFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124341825F11CB900987690 /* PhotoFeed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D124340F25F03E2D00987690 /* PhotoSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSize.swift; sourceTree = "<group>"; };
 		D124341225F0421700987690 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		D124341525F0430300987690 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
+		D124341825F11CB900987690 /* PhotoFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFeed.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				D124340925F03E1100987690 /* PhotoFeedResult.swift */,
 				D124340C25F03E1B00987690 /* Photo.swift */,
 				D124340F25F03E2D00987690 /* PhotoSize.swift */,
+				D124341825F11CB900987690 /* PhotoFeed.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				D12433D225F0353D00987690 /* SceneDelegate.swift in Sources */,
 				D124341025F03E2D00987690 /* PhotoSize.swift in Sources */,
 				D124341625F0430300987690 /* Key.swift in Sources */,
+				D124341925F11CB900987690 /* PhotoFeed.swift in Sources */,
 				D12433FC25F038BC00987690 /* HomeViewController.swift in Sources */,
 				D124340D25F03E1B00987690 /* Photo.swift in Sources */,
 			);
