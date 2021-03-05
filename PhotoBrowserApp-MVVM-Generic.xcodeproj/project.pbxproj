@@ -21,6 +21,7 @@
 		D124341C25F1201D00987690 /* Resut.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124341B25F1201D00987690 /* Resut.swift */; };
 		D124341F25F1207200987690 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124341E25F1207200987690 /* APIError.swift */; };
 		D124342225F122F000987690 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124342125F122F000987690 /* APIClient.swift */; };
+		D124342525F1588C00987690 /* PexelsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124342425F1588C00987690 /* PexelsClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		D124341B25F1201D00987690 /* Resut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resut.swift; sourceTree = "<group>"; };
 		D124341E25F1207200987690 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		D124342125F122F000987690 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		D124342425F1588C00987690 /* PexelsClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PexelsClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				D124341B25F1201D00987690 /* Resut.swift */,
 				D124341E25F1207200987690 /* APIError.swift */,
 				D124342125F122F000987690 /* APIClient.swift */,
+				D124342425F1588C00987690 /* PexelsClient.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			files = (
 				D124341325F0421700987690 /* Endpoint.swift in Sources */,
 				D12433D025F0353D00987690 /* AppDelegate.swift in Sources */,
+				D124342525F1588C00987690 /* PexelsClient.swift in Sources */,
 				D124340A25F03E1100987690 /* PhotoFeedResult.swift in Sources */,
 				D12433D225F0353D00987690 /* SceneDelegate.swift in Sources */,
 				D124341025F03E2D00987690 /* PhotoSize.swift in Sources */,
